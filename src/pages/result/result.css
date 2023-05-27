@@ -1,0 +1,52 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.result-container .logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+  border: 2px solid rgb(3, 250, 168);
+  width: 30rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.results-table {
+  width: 26rem;
+  border: 2px solid rgb(129, 128, 128);
+  padding: 30px;
+}
+
+.table-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: lightgray;
+  cursor: pointer;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+.result-container .start-link {
+  margin: 0 auto 10px auto;
+  background-color: rgb(248, 248, 20);
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}
