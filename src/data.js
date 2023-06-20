@@ -2,96 +2,97 @@ const questions = [
   {
     id: 1,
     question:
-      "Which sahaba did Prophet Muhammad (ﷺ) help to become free from being a slave by planting 300+ date palm trees?",
+      "قسمة المواريث تقدم على تنفيذ الوصية ووفاء الدين.  ",
     options: [
-      "Bilal ibn Rabah (ra)",
-      "Thawban ibn Bujdud (ra)",
-      "Salman al Farisi (ra)",
+      "صح",
+      "خطأ",
+      
     ],
-    answer: 2,
+    answer: 1,
   },
   {
     id: 2,
     question:
-      "What is the virtue of reciting Ayatul Kursi before going to bed at night to sleep?",
+      "يُرجع في قسمة المواريث إلى العرف السائد في البلد.",
     options: [
-      "Takes away hunger",
-      "Gives you strength",
-      "You are protected from harm till sunrise",
+      "صح",
+      "خطأ",
+    
     ],
-    answer: 2,
+    answer: 1,
   },
   {
     id: 3,
     question:
-      "Which Prophet (as) had control of the Jinn and was able to talk to animals?",
-    options: ["Sulaiman (as)", "Dawud (as)", "Yunus (as)"],
+      "من كان ماله كثير وعنده ورثة فالمشروع في حقه أن يوصي      ",
+    options: ["بجميع ماله", "بثلث ماله او اقل", "بنصف ماله"],
     answer: 1,
   },
   {
     id: 4,
-    question: "What does Zam Zam mean?",
-    options: ["Holy water", "Water well", "Stop "],
-    answer: 2,
+    question: "تبرع المسلم الغني بثلث ماله بعد موته لصالح الفقراء والمساكين",
+    options: ["وصية مستحبة", "وصية محرمة", "وصية واجبة "],
+    answer: 0,
   },
   {
     id: 5,
-    question: "What is Az-Zaqqum?",
+    question: "ما حكم الوصية إذا كان مال الموصي قليلًا وورثته محتاجين، ووصى بأقل من الثلث؟",
     options: [
-      "Food for the people of hellfire",
-      "Drink for the people of hellfire",
-      "Home for the people of hellfire",
+      "محرمة",
+      "مكروهة",
+      "مستحبة",
+    "واجبة"
     ],
-    answer: 0,
+    answer: 1,
   },
 
   {
     id: 6,
-    question: "Which of the following is not an example of Major Shirk?",
+    question: "حدد الشرع الحنيف نصيب كل واحد من الورثة من تركة الميت.",
     options: [
-      "Asking help from a Prophet",
-      "Going to a pious person’s grave for blessings",
-      "Showing off",
-    ],
-    answer: 2,
-  },
-  {
-    id: 7,
-    question: "What does Allah’s name Al-Mu’izz mean?",
-    options: [
-      "The One who dishonours",
-      "The One who honours",
-      "The One who will judge",
-    ],
-    answer: 1,
-  },
-  {
-    id: 8,
-    question: "Who was a first cousin of Prophet Muhammad (peace be upon him)?",
-    options: [
-      "Abdullah ibn al-Abbas (ra)",
-      "Abdullah ibn Umar (ra)",
-      "Khalid ibn Waleed (ra)",
+      "صح",
+      "خطأ",
+    
     ],
     answer: 0,
   },
   {
+    id: 7,
+    question: "/ماتت عن : أب , أم , بنت , زوجة والتركة(12000) جنية وأصل المسألة من (24) فما نصيب الأم",
+    options: [
+      "5",
+      "12",
+      "4",
+    ],
+    answer: 2,
+  },
+  {
+    id: 8,
+    question: "ماتت عن : زوج , أخت شقيقة , أخ لأم , أخت لأب والتركة (900) جنية علماً بأن أصل المسألة من 6 عالت إلى 9 فللأخت لأب :",
+    options: [
+      "نصف",
+      "سدس",
+      "ثلثين",
+    ],
+    answer: 2,
+  },
+  {
     id: 9,
     question:
-      "Who will get their book of deeds in the right hand on the Day of Judgment?",
-    options: ["The disbelievers", "The believers", "The hypocrites"],
-    answer: 1,
+      " مات عن : أم , جدة , عم , أخت شقيقة فما نصيب الجدة ",
+    options: ["تحجب", "ثلث"],
+    answer: 0,
   },
   {
     id: 10,
     question:
-      "What issue was Imam al-Bukhari (rh) born with and how as it fixed?",
+      "ماتت عن : زوج , أختين شقيقتين , أم , أخوين لأم وتركت بستاناً غير مستوي الأجزاء فسم الأخوين لأم هو:?",
     options: [
-      "Deaf & fixed with medicine",
-      "Deaf & fixed with mother’s dua",
-      "Blind & fixed with mother’s dua",
+      "1",
+      "2",
+      "3",
     ],
-    answer: 2,
+    answer: 1,
   },
 ];
 
